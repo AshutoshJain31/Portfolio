@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 const Navbar = () => {
   let links = [
-    { name: "Home", link: "Home.js" },
-    { name: "Project", link: "/Project.js" },
-    { name: "Blog", link: "/Blogs.js" },
+    { name: "Home", link: "#Home" },
+    { name: "Project", link: "#Project" },
+    { name: "Blog", link: "#Blogs" },
   ];
   let [open, setOpen] = useState(false);
   return (
@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
         <ul className={`md:flex md:item-center md:ml-auto md:text-xl mr-11 md:pt-0 pt-10  transition-all duration-75  ease-in ${open ? '':'hidden'}`}>
           {links.map((links) => (
-            <li className="ml-11 hover:text-orange-300 duration-700 md:p-0 p-10 mr-10">
+            <li className="ml-11 hover:text-orange-300 duration-700 md:p-0 p-10 mr-10 scroll-auto">
               <a href={links.link}>{links.name}</a>
             </li>
           ))}

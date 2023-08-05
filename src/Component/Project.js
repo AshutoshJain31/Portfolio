@@ -4,7 +4,7 @@ import img2 from "../Assets/Dice.jpg";
 import img3 from "../Assets/portfolio.jpg";
 const Project = () => {
   return (
-    <div>
+    <div id="Project" className="scroll-smooth">
       <h1 className="mt-4 text-5xl italic font-medium">Project's</h1>
       <div className="md: grid md:grid-cols-3 ">
         <div className="my-[auto] md:mx-[30px] mt-[30px] mb-10 mx-10 rounded-md shadow-lg shadow-indigo-500/40  border-orange-300 bg-slate-200">
@@ -102,12 +102,24 @@ const Project = () => {
               project with there live links.
             </p>
             <div className="flex justify-evenly my-5">
-              <button className="rounded-md p-2 bg-orange-500">
-                Source Code
-              </button>
-              <button className="rounded-md p-2 bg-orange-500">
-                Live link
-              </button>
+              <a
+                href="https://github.com/AshutoshJain31/Portfolio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="rounded-md p-2 bg-orange-500">
+                  Source Code
+                </button>
+              </a>
+              <a
+                href="https://ashutosh-jain.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="rounded-md p-2 bg-orange-500">
+                  Live link
+                </button>
+              </a>
             </div>
           </div>
         </div>

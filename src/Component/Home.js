@@ -2,9 +2,9 @@ import React from "react";
 import download from "../Assets/Ashutosh Wev DEV resume.pdf";
 const Home = () => {
   return (
-    <div className="w-auto h-auto mt-16  md:flex justify-between bg-violet-800">
+    <div id="Home" className="w-auto h-auto mt-16  md:flex justify-between bg-violet-800 scroll-smooth">
       <div className="p-20 md:w-[50%]">
-        <p className="text-6xl font-serif text-center">
+        <p className="text-6xl font-serif text-center m-[auto]">
           My Name is
           <br />
           <span className="text-slate-50">Ashutosh Jain</span> and

@@ -4,7 +4,7 @@ import img2 from "../Assets/blog2.jpg";
 import img3 from "../Assets/blog3.jpg";
 const Blogs = () => {
   return (
-    <div className="bg-slate-300">
+    <div id="Blogs" className="bg-slate-300 scroll-smooth">
       <h1 className="my-5 text-5xl italic font-medium ">Blog's</h1>
       <div className="md: grid md:grid-cols-3 ">
         <div className="my-[auto] md:mx-[30px] mt-[auto] mb-10 mx-10 rounded-md shadow-lg shadow-indigo-500/40  border-orange-300 bg-slate-200">
