@@ -4,7 +4,7 @@
 This project develop in the react JS with tailwind CSS and this project is responsive.This project define the description about project with there live links.
 
 
-![Alt img](personal portfolio.jpg)
+![Alt img](src/Assets/portfolio.jpg)
 ## Deployment
 
 To deploy this project Download the code from my repository and excecue the npm start command 
