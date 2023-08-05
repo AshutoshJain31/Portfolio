@@ -7,9 +7,7 @@ This project develop in the react JS with tailwind CSS and this project is respo
 ![Alt img](personal portfolio.jpg)
 ## Deployment
 
-To deploy this project run
-
-Download the code from my repository and excecue the npm start command 
+To deploy this project Download the code from my repository and excecue the npm start command 
 
 
 ## Features
